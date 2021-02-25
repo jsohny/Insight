@@ -1,0 +1,20 @@
+{
+    "title": "WHERE avg == 80",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "EQ": {
+                        "courses_avg": 80
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

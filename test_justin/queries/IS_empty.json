@@ -1,0 +1,16 @@
+{
+    "title": "SELECT dept WHERE dept IS 'zool'",
+    "query": {
+        "WHERE": {
+            "IS": {
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}
