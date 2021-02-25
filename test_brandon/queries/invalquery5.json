@@ -1,6 +1,0 @@
-{
-    "title": "Invalid query, empty COLUMNS array",
-    "query": { "WHERE": {}, "OPTIONS":{"COLUMNS": []} },
-    "isQueryValid": false,
-    "result": "InsightError"
-}

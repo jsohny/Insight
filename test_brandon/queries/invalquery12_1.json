@@ -1,6 +1,0 @@
-{
-    "title": "Invalid query, sfield id in mfield",
-    "query": { "WHERE": {"GT":{"courses_id":19}}, "OPTIONS":{"COLUMNS": ["courses_dept"]} },
-    "isQueryValid": false,
-    "result": "InsightError"
-}

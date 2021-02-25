@@ -1,6 +1,0 @@
-{
-    "title": "Invalid query, no matching id",
-    "query": { "WHERE": {}, "OPTIONS":{"COLUMNS": ["waffles_dept"]} },
-    "isQueryValid": false,
-    "result": "InsightError"
-}

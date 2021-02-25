@@ -1,6 +1,0 @@
-{
-    "title": "Invalid query, just brackets",
-    "query": {},
-    "isQueryValid": false,
-    "result": "InsightError"
-}

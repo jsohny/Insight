@@ -1,6 +1,0 @@
-{
-    "title": "Invalid query, 2 keys in WHERE",
-    "query": { "WHERE": {"GT":{"courses_avg":19}, "LT":{"courses_avg":19}}, "OPTIONS":{"COLUMNS": ["courses_dept"]} },
-    "isQueryValid": false,
-    "result": "InsightError"
-}

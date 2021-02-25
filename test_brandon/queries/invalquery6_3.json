@@ -1,6 +1,0 @@
-{
-    "title": "Invalid query, too many keys in OPTIONS",
-    "query": { "WHERE": {}, "OPTIONS":{"COLUMNS": ["courses_dept"], "ORDER":"courses_avg", "F":"courses_avg"} },
-    "isQueryValid": false,
-    "result": "InsightError"
-}

@@ -1,6 +1,0 @@
-{
-    "title": "Invalid query, no underscore in COLUMNS string",
-    "query": { "WHERE": {}, "OPTIONS":{"COLUMNS": ["coursesdept"]} },
-    "isQueryValid": false,
-    "result": "InsightError"
-}
