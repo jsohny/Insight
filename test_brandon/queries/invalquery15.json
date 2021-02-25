@@ -1,0 +1,15 @@
+{
+    "title": "Invalid query, invalid key in mfield",
+    "query": {
+        "WHERE": {
+            "EQ":{
+                "courses_waffle": 92
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": ["courses_avg"]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

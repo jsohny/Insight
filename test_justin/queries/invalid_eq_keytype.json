@@ -1,0 +1,29 @@
+{
+    "title": "SELECT dept, avg WHERE dept IS 'w*'",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "EQ": {
+                        "courses_instructor": "c*"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_instructor": "d*"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_year"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}
+

@@ -1,0 +1,14 @@
+{
+    "title": "Invalid query, id has underscore in it",
+    "query": {
+        "WHERE": {
+        },
+        "OPTIONS": {
+          "COLUMNS": [
+            "cour_ses_dept"
+          ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

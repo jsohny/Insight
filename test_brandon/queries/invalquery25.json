@@ -1,0 +1,18 @@
+{
+    "title": "Invalid query, more keys than just WHERE and OPTIONS",
+    "query": {
+      "WHERE": {
+        "GT": {
+          "courses_avg": 99
+        }
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_dept"
+        ]
+      },
+      "WEEHAA":1
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

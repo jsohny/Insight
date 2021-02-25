@@ -1,0 +1,14 @@
+{
+    "title": "Invalid query, empty id",
+    "query": {
+        "WHERE": {
+        },
+        "OPTIONS": {
+          "COLUMNS": [
+            "_dept"
+          ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

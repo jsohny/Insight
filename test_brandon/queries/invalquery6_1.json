@@ -1,0 +1,6 @@
+{
+    "title": "Invalid query, thing in COLUMNS is not an array",
+    "query": { "WHERE": {}, "OPTIONS":{"COLUMNS": 1} },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

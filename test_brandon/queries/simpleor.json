@@ -1,0 +1,28 @@
+{
+    "title": "Simple test, OR requires EQ to work",
+    "query": {
+      "WHERE": {
+        "OR":[
+            {
+              "EQ": {
+                "courses_avg": 0
+              }
+            },
+            {
+              "EQ": {
+                "courses_avg": 98
+              }
+            }
+          ]
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_dept",
+          "courses_title",
+          "courses_avg"
+        ]
+      }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_dept":"crwr","courses_title":"thesis","courses_avg":98},{"courses_dept":"crwr","courses_title":"thesis","courses_avg":98},{"courses_dept":"frst","courses_title":"forest ecology","courses_avg":0},{"courses_dept":"lfs","courses_title":"in land food com","courses_avg":0},{"courses_dept":"lfs","courses_title":"in land food com","courses_avg":0}]
+  }

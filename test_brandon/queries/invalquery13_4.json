@@ -1,0 +1,17 @@
+{
+    "title": "Invalid query, mfield year in sfield",
+    "query": {
+        "WHERE": {
+          "IS": {
+            "courses_year": "cpen"
+          }
+        },
+        "OPTIONS": {
+          "COLUMNS": [
+            "courses_dept"
+          ]
+        }
+      },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

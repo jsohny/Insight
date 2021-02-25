@@ -1,0 +1,19 @@
+{
+    "title": "Invalid query, string in MCOMPARISON",
+    "query": {
+      "WHERE": {
+        "LT": {
+          "courses_avg": "ah"
+        }
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_dept",
+          "courses_title",
+          "courses_avg"
+        ]
+      }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

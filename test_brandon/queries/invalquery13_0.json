@@ -1,0 +1,17 @@
+{
+    "title": "Invalid query, mfield avg in sfield",
+    "query": {
+        "WHERE": {
+          "IS": {
+            "courses_avg": "cpen"
+          }
+        },
+        "OPTIONS": {
+          "COLUMNS": [
+            "courses_dept"
+          ]
+        }
+      },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,32 @@
+{
+    "title": "Invalid query, AND has third in list be invalid",
+    "query": {
+      "WHERE": {
+        "AND": [
+          {
+            "EQ": {
+              "courses_avg": 98
+            }
+          },
+          {
+            "EQ": {
+              "courses_avg": 23
+            }
+          },
+          {
+            "EQ": {
+              "courses_avg": 43,
+              "courses_dept": 87
+            }
+          }
+        ]
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_dept"
+        ]
+      }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

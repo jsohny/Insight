@@ -1,0 +1,21 @@
+{
+    "title": "Simple test, NOT requires GT to work",
+    "query": {
+      "WHERE": {
+        "NOT":{
+          "GT": {
+          "courses_avg": 3
+          }
+        }
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_dept",
+          "courses_title",
+          "courses_avg"
+        ]
+      }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_dept":"frst","courses_title":"forest ecology","courses_avg":0},{"courses_dept":"lfs","courses_title":"in land food com","courses_avg":0},{"courses_dept":"lfs","courses_title":"in land food com","courses_avg":0},{"courses_dept":"wood","courses_title":"prpty,ident&uses","courses_avg":1}]
+  }

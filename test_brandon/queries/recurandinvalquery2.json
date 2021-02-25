@@ -1,0 +1,46 @@
+{
+    "title": "Invalid query, one filter in nested AND is invalid",
+    "query": {
+      "WHERE": {
+        "AND": [
+          {
+            "EQ": {
+              "courses_avg": 98
+            }
+          },
+          {
+            "EQ": {
+              "courses_avg": 23
+            }
+          },
+          {
+            "AND": [
+              {
+                "EQ": {
+                  "courses_avg": 98
+                }
+              },
+              {
+                "EQ": {
+                  "courses_avg": 43,
+                  "courses_dept": 87
+                }
+              },
+              {
+                "EQ": {
+                  "courses_avg": 23
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "OPTIONS": {
+        "COLUMNS": [
+          "courses_dept"
+        ]
+      }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

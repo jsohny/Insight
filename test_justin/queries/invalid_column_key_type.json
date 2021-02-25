@@ -1,0 +1,39 @@
+
+
+{
+    "title": "SELECT dept, avg WHERE avg > 99",
+    "query": {
+        "WHERE": {
+            "OR": [
+                {
+                    "AND": [
+                        {
+                            "GT": {
+                                "courses_avg": 90
+                            }
+                        },
+                        {
+                            "IS": {
+                                "courses_dept": "adhe"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EQ": {
+                        "courses_avg": 95
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                54,
+                55,
+                56
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

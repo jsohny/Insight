@@ -1,0 +1,6 @@
+{
+    "title": "Invalid query, sfield instructor in mfield",
+    "query": { "WHERE": {"GT":{"courses_instructor":19}}, "OPTIONS":{"COLUMNS": ["courses_dept"]} },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,17 @@
+{
+    "title": "Invalid query, mfield pass in sfield",
+    "query": {
+        "WHERE": {
+          "IS": {
+            "courses_pass": "cpen"
+          }
+        },
+        "OPTIONS": {
+          "COLUMNS": [
+            "courses_dept"
+          ]
+        }
+      },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

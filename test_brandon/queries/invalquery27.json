@@ -1,0 +1,6 @@
+{
+    "title": "Invalid query, bad filter given",
+    "query": { "WHERE": {"WAFFLE":{"courses_avg":19}}, "OPTIONS":{"COLUMNS": ["courses_dept"]} },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

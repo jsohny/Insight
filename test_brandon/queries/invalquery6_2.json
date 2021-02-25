@@ -1,0 +1,6 @@
+{
+    "title": "Invalid query, other key in OPTIONS is not ORDER",
+    "query": { "WHERE": {}, "OPTIONS":{"COLUMNS": ["courses_dept"], "BACON":"courses_avg"} },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,29 @@
+{
+    "title": "SELECT dept, avg WHERE dept = 'apsc' AND instructor IS 'c*'",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "courses_dept": "apsc"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_instructor": "c*"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "year"
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}
+
